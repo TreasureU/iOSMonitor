@@ -13,9 +13,9 @@
 		5FEF55EF1E42FFE0005AE7D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FEF55ED1E42FFE0005AE7D9 /* Main.storyboard */; };
 		5FEF55F11E42FFE0005AE7D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FEF55F01E42FFE0005AE7D9 /* Assets.xcassets */; };
 		5FEF55F41E42FFE0005AE7D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FEF55F21E42FFE0005AE7D9 /* LaunchScreen.storyboard */; };
-		5FEF56021E430097005AE7D9 /* CJFDebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEF55FD1E430097005AE7D9 /* CJFDebugLog.m */; };
-		5FEF56031E430097005AE7D9 /* CJFDebugMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEF55FF1E430097005AE7D9 /* CJFDebugMonitor.m */; };
-		5FEF56041E430097005AE7D9 /* CJFDebugMonitorTools.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FEF56001E430097005AE7D9 /* CJFDebugMonitorTools.c */; };
+		5FF8144D1EA7B4F00033E060 /* CJFDebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF814461EA7B4F00033E060 /* CJFDebugLog.m */; };
+		5FF8144E1EA7B4F00033E060 /* CJFDebugMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF814481EA7B4F00033E060 /* CJFDebugMonitor.m */; };
+		5FF8144F1EA7B4F00033E060 /* CJFDebugMonitorTools.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF814491EA7B4F00033E060 /* CJFDebugMonitorTools.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +29,12 @@
 		5FEF55F01E42FFE0005AE7D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FEF55F31E42FFE0005AE7D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FEF55F51E42FFE0005AE7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FEF55FC1E430097005AE7D9 /* CJFDebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJFDebugLog.h; sourceTree = "<group>"; };
-		5FEF55FD1E430097005AE7D9 /* CJFDebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJFDebugLog.m; sourceTree = "<group>"; };
-		5FEF55FE1E430097005AE7D9 /* CJFDebugMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJFDebugMonitor.h; sourceTree = "<group>"; };
-		5FEF55FF1E430097005AE7D9 /* CJFDebugMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJFDebugMonitor.m; sourceTree = "<group>"; };
-		5FEF56001E430097005AE7D9 /* CJFDebugMonitorTools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CJFDebugMonitorTools.c; sourceTree = "<group>"; };
-		5FEF56011E430097005AE7D9 /* CJFDebugMonitorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJFDebugMonitorTools.h; sourceTree = "<group>"; };
+		5FF814451EA7B4F00033E060 /* CJFDebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJFDebugLog.h; sourceTree = "<group>"; };
+		5FF814461EA7B4F00033E060 /* CJFDebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJFDebugLog.m; sourceTree = "<group>"; };
+		5FF814471EA7B4F00033E060 /* CJFDebugMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJFDebugMonitor.h; sourceTree = "<group>"; };
+		5FF814481EA7B4F00033E060 /* CJFDebugMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJFDebugMonitor.m; sourceTree = "<group>"; };
+		5FF814491EA7B4F00033E060 /* CJFDebugMonitorTools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CJFDebugMonitorTools.c; sourceTree = "<group>"; };
+		5FF8144A1EA7B4F00033E060 /* CJFDebugMonitorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJFDebugMonitorTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +51,7 @@
 		5FEF55D81E42FFE0005AE7D9 = {
 			isa = PBXGroup;
 			children = (
+				5FF814441EA7B4F00033E060 /* iOSMonitor */,
 				5FEF55E31E42FFE0005AE7D9 /* iOSMonitorDemo */,
 				5FEF55E21E42FFE0005AE7D9 /* Products */,
 			);
@@ -67,7 +68,6 @@
 		5FEF55E31E42FFE0005AE7D9 /* iOSMonitorDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5FEF55FB1E430097005AE7D9 /* Monitoring */,
 				5FEF55E71E42FFE0005AE7D9 /* AppDelegate.h */,
 				5FEF55E81E42FFE0005AE7D9 /* AppDelegate.m */,
 				5FEF55EA1E42FFE0005AE7D9 /* ViewController.h */,
@@ -89,17 +89,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5FEF55FB1E430097005AE7D9 /* Monitoring */ = {
+		5FF814441EA7B4F00033E060 /* iOSMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				5FEF55FC1E430097005AE7D9 /* CJFDebugLog.h */,
-				5FEF55FD1E430097005AE7D9 /* CJFDebugLog.m */,
-				5FEF55FE1E430097005AE7D9 /* CJFDebugMonitor.h */,
-				5FEF55FF1E430097005AE7D9 /* CJFDebugMonitor.m */,
-				5FEF56001E430097005AE7D9 /* CJFDebugMonitorTools.c */,
-				5FEF56011E430097005AE7D9 /* CJFDebugMonitorTools.h */,
+				5FF814451EA7B4F00033E060 /* CJFDebugLog.h */,
+				5FF814461EA7B4F00033E060 /* CJFDebugLog.m */,
+				5FF814471EA7B4F00033E060 /* CJFDebugMonitor.h */,
+				5FF814481EA7B4F00033E060 /* CJFDebugMonitor.m */,
+				5FF814491EA7B4F00033E060 /* CJFDebugMonitorTools.c */,
+				5FF8144A1EA7B4F00033E060 /* CJFDebugMonitorTools.h */,
 			);
-			path = Monitoring;
+			path = iOSMonitor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,12 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FEF56021E430097005AE7D9 /* CJFDebugLog.m in Sources */,
+				5FF8144F1EA7B4F00033E060 /* CJFDebugMonitorTools.c in Sources */,
+				5FF8144E1EA7B4F00033E060 /* CJFDebugMonitor.m in Sources */,
+				5FF8144D1EA7B4F00033E060 /* CJFDebugLog.m in Sources */,
 				5FEF55EC1E42FFE0005AE7D9 /* ViewController.m in Sources */,
-				5FEF56031E430097005AE7D9 /* CJFDebugMonitor.m in Sources */,
 				5FEF55E91E42FFE0005AE7D9 /* AppDelegate.m in Sources */,
 				5FEF55E61E42FFE0005AE7D9 /* main.m in Sources */,
-				5FEF56041E430097005AE7D9 /* CJFDebugMonitorTools.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +335,7 @@
 				5FEF55FA1E42FFE0005AE7D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
