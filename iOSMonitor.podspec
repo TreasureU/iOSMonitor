@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "iOSMonitor/*.{h,m}"
+  s.source_files  = "iOSMonitor/*.{h,m,c,mm}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -120,7 +120,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "UIKit", "Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
