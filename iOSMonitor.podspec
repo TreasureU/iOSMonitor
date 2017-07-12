@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "iOSMonitor"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "An iOS performance monitoring tool kit."
 
   # This description is used to generate tags and improve search results.
